@@ -1,1 +1,77 @@
-HOLI PEPITO
+<html>
+    <title>Clase 01</title>
+    <body>
+
+    </body>
+    <script>
+        //JSON
+        /*const exdeAxel = [
+            {
+                "nombre": "Miguela",
+                "edad": 17
+            },
+            {
+                "nombre": "Cristhian",
+                "edad": 23
+            },
+            {
+                "nombre": "Marcial",
+                "edad": 16
+            },
+            {
+                "nombre": "JP",
+                "edad": 18
+            },
+            {
+                "nombre": "Ariam",
+                "edad": 17
+            },
+            {
+                "nombre": "Julieta",
+                "edad": 22
+            }
+        ];  
+        function isLegal(edad, nombre) {
+            if (edad > 18 || edad == 18) {
+                console.log(nombre+" es legal");
+            }
+        }
+        for (let i=0; i<edades.length; i++){
+            console.log(edades[i]+1);
+        }
+        exdeAxel.forEach((e) => {
+            // es legal
+            isLegal(e.edad, e.nombre);            
+        });*/
+        const triangulos = [
+            {
+                "altura": 15,
+                "base": 17
+            },
+            {
+                "altura": 18,
+                "base": 20
+            },
+            {
+                "altura": 25,
+                "base": 27
+            },
+            {
+                "altura": 45,
+                "base": 76
+            },
+            {
+                "altura": 76,
+                "base":50
+            }
+        ];
+        function calculaAreaTriangulo(base, altura){
+            let area = (base * altura) / 2;
+            console.log("El area del triangulo es: " + area);
+        }
+
+        triangulos.forEach((t) =>{
+            calculaAreaTriangulo(t.base, t.altura)
+        });
+    </script>
+</html>
